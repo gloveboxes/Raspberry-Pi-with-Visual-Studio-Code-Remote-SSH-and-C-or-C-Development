@@ -60,7 +60,7 @@ sudo reboot
 Install the following libraries on the Raspberry Pi from the command line.
 
 ```bash
-sudo apt cmake clang cppcheck global build-essential gdb
+sudo apt install cmake clang clang-format cppcheck global build-essential gdb git
 ```
 
 ---
@@ -74,6 +74,7 @@ sudo apt cmake clang cppcheck global build-essential gdb
 5. [C/C++ Snippets](https://marketplace.visualstudio.com/items?itemName=hars.CppSnippets)
 6. [C/C++ Advanced Lint](https://marketplace.visualstudio.com/items?itemName=jbenden.c-cpp-flylint)
 7. [C Snippets](https://marketplace.visualstudio.com/items?itemName=Harry-Ross-Software.c-snippets)
+8. [Clang-Format](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format)
 
 ---
 
