@@ -410,3 +410,23 @@ See the sample-c-app project included with this tutorial.
 [Using C++ on Linux in VS Code](https://code.visualstudio.com/docs/cpp/config-linux)
 
 [How to overclock Raspberry Pi 4](https://magpi.raspberrypi.org/articles/how-to-overclock-raspberry-pi-4)
+
+---
+
+<!-- ## Install Azure C SDK Dev Package
+
+[Use apt-get to create a C device client project on Ubuntu](https://github.com/Azure/azure-iot-sdk-c/blob/master/doc/ubuntu_apt-get_sample_setup.md)
+
+Add the AzureIoT repository to the machine:
+
+```bash
+sudo apt-get install -y software-properties-common
+sudo add-apt-repository ppa:aziotsdklinux/ppa-azureiot
+sudo apt-get update
+```
+
+Install the azure-iot-sdk-c-dev package
+
+```bash
+sudo apt-get install -y azure-iot-sdk-c-dev
+``` -->
