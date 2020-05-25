@@ -430,3 +430,17 @@ Install the azure-iot-sdk-c-dev package
 ```bash
 sudo apt-get install -y azure-iot-sdk-c-dev
 ``` -->
+
+---
+
+## Install Paho C Client
+
+[MQTT C Client for Posix and Windows](https://www.eclipse.org/paho/clients/c/)
+
+Install required openssl library header
+
+[“openssl/ssl.h: No such file or directory” during Installation of Git](https://stackoverflow.com/questions/17915098/openssl-ssl-h-no-such-file-or-directory-during-installation-of-git)
+
+```bash
+sudo apt-get install libssl-dev
+```
