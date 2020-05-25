@@ -8,11 +8,17 @@ This tutorial targets Raspberry Pi 4 as it's such an awesome and capable device.
 
 ## Introduction
 
+There are two approaches to developing C/C++ applications for the Raspberry Pi. You can either cross-compile to the ARM processor architecture from your desktop computer, or you can build, compile, and debug on the Raspberry Pi itself.
+
+Visual Studio 2019 (inc free of charge Community Edition) includes tools to develop, cross-compile, copy the app to the Raspberry Pi and remotely attach the GDB debugger. It's a great option but it is Windows only.
+
+This tutorial explores using Visual Studio Code from macOS, Linux, or Windows to build C/C++ applications on the Raspberry Pi itself.
+
 The following is a guide to C/C++ development on a Raspberry Pi with Visual Studio Code. At the time of writing the Microsoft [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) Visual Studio Code extension does not support ARM based systems.
 
 The Raspberry Pi is a great learning platform for C and C++ development.  Interesting enough, C and C++ are one of the fastest growing languages still. This article [5 REASONS WHY YOU SHOULD KEEP LEARNING C/C++](https://www.topcoder.com/5-reasons-keep-learning-c/) covers the great reasons why you should be learning C and C++.
 
-## Raspberry Pi Boot from USB
+## Raspberry Pi 4 Boot from USB
 
 At the time of writing Raspberry Pi 4 boot from USB was in beta. See [How to Boot Raspberry Pi 4 From a USB SSD or Flash Drive](https://www.tomshardware.com/how-to/boot-raspberry-pi-4-usb) for more information.
 
@@ -25,7 +31,7 @@ At the time of writing Raspberry Pi 4 boot from USB was in beta. See [How to Boo
 
 ---
 
-## Overclock the Raspberry Pi
+## Overclock the Raspberry Pi 4
 
 Overclock the Raspberry Pi 4 if you wish
 
@@ -145,7 +151,7 @@ You will be prompted for:
 
 ## Create a new project directory
 
-1. First create a folder for your project
+1. First, create a folder for your project
 2. From the Visual Studio Code menu select **Terminal** -> **New Terminal**.
 3. From the Raspberry Pi Bash command prompt, create a directory structure for your project.  I like to keep projects in a directory named **github**. But this is just my preference as most projects I work on are either cloned from GitHub or are published on GitHub.
 
@@ -230,7 +236,7 @@ In this tutorial we are going to create a C application, so I've rename main.cpp
 
 ## Create Build, Run, Debug settings
 
-As a convenance, the build and debug process uses the name of the project directory. We need to update the CMake file, and create a Launcher and Build Task.
+As a convenience, the build and debug process uses the name of the project directory. We need to update the CMake file, and create a Launcher and Build Task.
 
 ### Update the CMake file
 
@@ -364,7 +370,7 @@ As a convenance, the build and debug process uses the name of the project direct
 
 5. Remove the debug breakpoint by clicking on the red dot next to line 5.
 6. Press <kbd>F5</kbd> to continue the execution of the application.
-7. Switch to the Debug Console to see the output from the *printf* statement in the the application.
+7. Switch to the Debug Console to see the output from the *printf* statement in the application.
 
     ![](resources/vs-code-debug-console.png)
 
