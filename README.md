@@ -433,7 +433,7 @@ sudo apt-get install -y azure-iot-sdk-c-dev
 
 ---
 
-## Install Paho C Client
+## MQTT C Client Installation
 
 [MQTT C Client for Posix and Windows](https://www.eclipse.org/paho/clients/c/)
 
