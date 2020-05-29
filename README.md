@@ -1,4 +1,4 @@
-# Developing C or C++ Apps on Raspberry Pi with Visual Studio Code Remote SSH
+# Developing C/C++ Apps on Raspberry Pi with Visual Studio Code Remote SSH
 
 Be you a hacker, a student, or building Industrial IoT solutions on devices like the [Revolution Pi](https://revolution.kunbus.com/) then C and C++ development continues to be an important part of the mix when building solutions targeting Raspberry Pi based devices.
 
