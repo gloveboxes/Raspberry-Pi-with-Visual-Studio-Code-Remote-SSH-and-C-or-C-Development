@@ -6,6 +6,8 @@ Be you a hacker, a student, or building Industrial IoT solutions on devices like
 |---|---|---|
 | ![](resources/vs-code-logo.png) | ![](resources/rpi4b.jpg) | ![](resources/RevPi-Connect+-32GB.png)  |
 
+Visual Studio Code is a free, extensible code editor and is one of the most popular Open Source projects on [GitHub](https://github.com/microsoft/vscode). It runs on Linux, macOS, and Windows.
+
 This tutorial targets modern Raspberry Pis, version 2 or better, including Industrial IoT devices like the [Revolution Pi](https://revolution.kunbus.com/) built on the [Raspberry Pi Compute module](https://www.raspberrypi.org/products/compute-module-3-plus/).
 
 ---
@@ -16,7 +18,7 @@ There are two approaches to developing C/C++ applications for the Raspberry Pi. 
 
 Visual Studio 2019 (inc free of charge Community Edition) includes tools to develop, cross-compile, copy the app to the Raspberry Pi and remotely attach the GDB debugger. It's a great option but it is Windows only.
 
-This tutorial explores using Visual Studio Code from macOS, Linux, or Windows to build C/C++ applications on the Raspberry Pi itself.
+This tutorial explores using Visual Studio Code from Linux, macOS, or Windows to build C/C++ applications on the Raspberry Pi itself.
 
 The following is a guide to C/C++ development on a Raspberry Pi with Visual Studio Code. At the time of writing the Microsoft [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) Visual Studio Code extension does not support ARM based systems.
 
