@@ -6,6 +6,8 @@ Be you a hacker, a student, or building Industrial IoT solutions on devices like
 |---|---|---|
 | ![](resources/vs-code-logo.png) | ![](resources/rpi4b.jpg) | ![](resources/RevPi-Connect+-32GB.png)  |
 
+*Revolution Pi image included here with permission from KUNBUS GmbH*
+
 Visual Studio Code is a free, extensible code editor and is one of the most popular Open Source projects on [GitHub](https://github.com/microsoft/vscode). It runs on Linux, macOS, and Windows.
 
 This tutorial targets modern Raspberry Pis, version 2 or better, including Industrial IoT devices like the [Revolution Pi](https://revolution.kunbus.com/) built on the [Raspberry Pi Compute module](https://www.raspberrypi.org/products/compute-module-3-plus/).
@@ -151,7 +153,7 @@ You will be prompted for:
 
 ## C samples for your Raspberry Pi
 
-This tutorial includes a number of samples that you can clone to your Raspberry Pi.
+This tutorial includes a several samples that you can clone to your Raspberry Pi.
 
 From the Visual Studio Terminal window you just opened, run the following command to copy the samples to your Raspberry Pi
 
@@ -211,7 +213,7 @@ If you are planning on writing a C application, then right mouse click the **mai
 #include <stdio.h>
 
 int main(int argc, char *argv[])
-{    
+{
     for (int i = 0; i < 100; i++)
     {
         printf("%d\n", i);
@@ -220,10 +222,10 @@ int main(int argc, char *argv[])
 
 ```
 
-In this tutorial we are going to create a C application, so I've rename main.cpp to main.c.
+In this tutorial, we are going to create a C application, so I have renamed the main.cpp file to main.c. You can rename main.cpp file from the Visual Studio Code Explorer by right mouse clicking the file and selecting **rename**.
 
 ![](resources/vs-code-sample-c-app.png)
-    
+
 ---
 
 ## Create Build, Run, Debug settings
