@@ -2,7 +2,7 @@
 
 Be you a hacker, a student, or building Industrial IoT solutions on devices like the [Revolution Pi](https://revolution.kunbus.com/) then C and C++ development continues to be an important part of the mix when building solutions targeting Raspberry Pi based devices.
 
-| Visual Studio Code | Hack on Raspberry Pi  | Build Industrial IoT |
+| Developer with Visual Studio Code | Hack on Raspberry Pi  | Build Industrial IoT |
 |---|---|---|
 | ![](resources/vs-code-logo.png) | ![](resources/rpi4b.jpg) | ![](resources/RevPi-Connect+-32GB.png)  |
 
