@@ -149,6 +149,18 @@ You will be prompted for:
 
 ---
 
+## C samples for your Raspberry Pi
+
+This tutorial includes a number of samples that you can clone to your Raspberry Pi.
+
+From the Visual Studio Terminal window you just opened, run the following command to copy the samples to your Raspberry Pi
+
+```bash
+git clone --depth=1 https://github.com/gloveboxes/Raspberry-Pi-with-Visual-Studio-Code-Remote-SSH-and-C-or-C-Development.git
+```
+
+---
+
 ## Open the project directory with Visual Studio Code
 
 1. From Visual Studio Code main menu, select **File** -> **pen Folder**. 
