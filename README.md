@@ -18,40 +18,13 @@ The following is a guide to C/C++ development on a Raspberry Pi with Visual Stud
 
 The Raspberry Pi is a great learning platform for C and C++ development.  Interesting enough, C and C++ are one of the fastest growing languages still. This article [5 REASONS WHY YOU SHOULD KEEP LEARNING C/C++](https://www.topcoder.com/5-reasons-keep-learning-c/) covers the great reasons why you should be learning C and C++.
 
-## Raspberry Pi 4 Boot from USB
-
-At the time of writing Raspberry Pi 4 boot from USB was in beta. See [How to Boot Raspberry Pi 4 From a USB SSD or Flash Drive](https://www.tomshardware.com/how-to/boot-raspberry-pi-4-usb) for more information.
-
 ---
 
 ## Raspberry Pi set up
 
 1. Set up your Raspberry Pi
 2. Ensure Operating System updated
-
----
-
-## Overclock the Raspberry Pi 4
-
-Overclock the Raspberry Pi 4 if you wish
-
-```bash
-sudo nano /boot/config.txt
-```
-
-I found the following settings stable running Raspbian on my Raspberry Pi 4.
-
-```text
-over_voltage=6
-arm_freq=2000
-gpu_freq=700
-```
-
-and Reboot the Raspberry Pi
-
-```bash
-sudo reboot
-```
+3. [Raspberry Pi set up tips and tricks](RPISETUPTIPS.md)
 
 ---
 
@@ -60,7 +33,7 @@ sudo reboot
 Install the following libraries on the Raspberry Pi from the command line.
 
 ```bash
-sudo apt install cmake clang clang-format cppcheck global build-essential gdb git
+sudo apt install cmake clang clang-format cppcheck global build-essential gdb git wiringpi
 ```
 
 ---
@@ -83,7 +56,7 @@ sudo apt install cmake clang clang-format cppcheck global build-essential gdb gi
 Clone this project to your computer as you will need to run a script to set up SSH authentication between your computer and your Raspberry Pi.
 
 ```bash
-git clone 
+git clone --depth=1 https://github.com/gloveboxes/Raspberry-Pi-with-Visual-Studio-Code-Remote-SSH-and-C-or-C-Development.git
 ```
 
 ---
