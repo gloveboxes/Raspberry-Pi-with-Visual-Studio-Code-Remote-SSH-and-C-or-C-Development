@@ -173,7 +173,7 @@ You will be prompted for:
 
 2. Select **CMake: Quick Start**
 
-3. Select **Unspecified (Let CMake guess)** unless you have some specific requirements.
+3. Select **GCC for c99** unless you have some specific requirements.
 
     ![](resources/vs-code-cmake-select-kit.png)
 
@@ -386,10 +386,6 @@ See the sample-c-app project included with this tutorial.
 
 [Using C++ on Linux in VS Code](https://code.visualstudio.com/docs/cpp/config-linux)
 
-[How to overclock Raspberry Pi 4](https://magpi.raspberrypi.org/articles/how-to-overclock-raspberry-pi-4)
-
----
-
 <!-- ## Install Azure C SDK Dev Package
 
 [Use apt-get to create a C device client project on Ubuntu](https://github.com/Azure/azure-iot-sdk-c/blob/master/doc/ubuntu_apt-get_sample_setup.md)
@@ -412,12 +408,20 @@ sudo apt-get install -y azure-iot-sdk-c-dev
 
 ## MQTT C Client Installation
 
-[MQTT C Client for Posix and Windows](https://www.eclipse.org/paho/clients/c/)
-
-Install required openssl library header
-
-[“openssl/ssl.h: No such file or directory” during Installation of Git](https://stackoverflow.com/questions/17915098/openssl-ssl-h-no-such-file-or-directory-during-installation-of-git)
+MQTT install/make requires the openssl library header.
 
 ```bash
 sudo apt-get install libssl-dev
 ```
+
+### Install MQTT C client
+
+```bash
+git clone https://github.com/eclipse/paho.mqtt.c.git
+cd paho.mqtt.c
+sudo make install
+```
+
+
+[MQTT C Client for Posix and Windows](https://www.eclipse.org/paho/clients/c/)
+
