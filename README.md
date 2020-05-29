@@ -2,6 +2,8 @@
 
 ![](resources/rpi4b.jpg)
 
+![](resources/RevPi-Connect+-32GB.png)
+
 This tutorial targets Raspberry Pi 4 as it's such an awesome and capable device. This tutorial will also work on all modern Raspberry Pis, version 2 or better, except for the Raspberry Pi Zero (as it is not supported by Visual Studio Core Remote SSH Development).
 
 ---
