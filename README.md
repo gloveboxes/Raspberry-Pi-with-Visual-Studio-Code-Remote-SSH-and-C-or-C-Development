@@ -22,7 +22,7 @@ Visual Studio 2019 (inc free of charge Community Edition) includes tools to deve
 
 This tutorial explores using Visual Studio Code from Linux, macOS, or Windows to build C/C++ applications on the Raspberry Pi itself.
 
-The following is a guide to C/C++ development on a Raspberry Pi with Visual Studio Code. At the time of writing the Microsoft [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) Visual Studio Code extension does not support ARM based systems.
+The following is a guide to C/C++ development on a Raspberry Pi with Visual Studio Code. At the time of writing the Microsoft [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools&WT.mc_id=iot-0000-dglover) Visual Studio Code extension does not support ARM based systems.
 
 The Raspberry Pi is a great learning platform for C and C++ development.  Interesting enough, C and C++ are one of the fastest growing languages still. This article [5 REASONS WHY YOU SHOULD KEEP LEARNING C/C++](https://www.topcoder.com/5-reasons-keep-learning-c/) covers the great reasons why you should be learning C and C++.
 
@@ -48,14 +48,14 @@ sudo apt install cmake clang clang-format cppcheck global build-essential gdb gi
 
 ## Visual Studio Code Extensions
 
-1. [Visual Studio Code Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
-2. [C/C++ Clang Command Adapter](https://marketplace.visualstudio.com/items?itemName=mitaki28.vscode-clang)
-3. [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
-4. [Native Debug](https://marketplace.visualstudio.com/items?itemName=webfreak.debug)
-5. [C/C++ Snippets](https://marketplace.visualstudio.com/items?itemName=hars.CppSnippets)
-6. [C/C++ Advanced Lint](https://marketplace.visualstudio.com/items?itemName=jbenden.c-cpp-flylint)
-7. [C Snippets](https://marketplace.visualstudio.com/items?itemName=Harry-Ross-Software.c-snippets)
-8. [Clang-Format](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format)
+1. [Visual Studio Code Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh&WT.mc_id=iot-0000-dglover)
+2. [C/C++ Clang Command Adapter](https://marketplace.visualstudio.com/items?itemName=mitaki28.vscode-clang&WT.mc_id=iot-0000-dglover)
+3. [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools&WT.mc_id=iot-0000-dglover)
+4. [Native Debug](https://marketplace.visualstudio.com/items?itemName=webfreak.debug&WT.mc_id=iot-0000-dglover)
+5. [C/C++ Snippets](https://marketplace.visualstudio.com/items?itemName=hars.CppSnippets&WT.mc_id=iot-0000-dglover)
+6. [C/C++ Advanced Lint](https://marketplace.visualstudio.com/items?itemName=jbenden.c-cpp-flylint&WT.mc_id=iot-0000-dglover)
+7. [C Snippets](https://marketplace.visualstudio.com/items?itemName=Harry-Ross-Software.c-snippets&WT.mc_id=iot-0000-dglover)
+8. [Clang-Format](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format&WT.mc_id=iot-0000-dglover)
 
 ---
 
@@ -267,7 +267,7 @@ As a convenience, the build and debug process uses the name of the project direc
 
     ```json
     {
-        // See https://go.microsoft.com/fwlink/?LinkId=733558
+        // See https://go.microsoft.com/fwlink/?LinkId=733558&WT.mc_id=iot-0000-dglover
         // for the documentation about the tasks.json format
         "version": "2.0.0",
         "tasks": [
@@ -329,7 +329,7 @@ As a convenience, the build and debug process uses the name of the project direc
     {
         // Use IntelliSense to learn about possible attributes.
         // Hover to view descriptions of existing attributes.
-        // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+        // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387&WT.mc_id=iot-0000-dglover
         "version": "0.2.0",
         "configurations": [
             {
@@ -400,7 +400,7 @@ See the sample-c-app project included with this tutorial.
 
 ## References
 
-[Using C++ on Linux in VS Code](https://code.visualstudio.com/docs/cpp/config-linux)
+[Using C++ on Linux in VS Code](https://code.visualstudio.com/docs/cpp/config-linux?WT.mc_id=iot-0000-dglover)
 
 <!-- ## Install Azure C SDK Dev Package
 
